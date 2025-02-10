@@ -4,12 +4,90 @@
     <meta charset="UTF-8" />
     <!-- PON UN FAVICON!!! -->
     <link rel="icon" type="image/svg+xml" href="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CAMBIA EL TITLE!!! -->
-    <title>Vite Template</title>
+    <title>News</title>
   </head>
   <body>
-    <h1>Hola</h1>
+    <header class="header">
+      <img src="" alt="" class="header-logo">
+      <div class="menu">
+        <img src="" alt="" class="menu-icon">
+        <img src="" alt="" class="menu-cross">
+        <nav>
+          <ul class="menu-nav">
+            <li class="menu-option text">Home</li>
+            <li class="menu-option text">New</li>
+            <li class="menu-option text">Popular</li>
+            <li class="menu-option text">Trending</li>
+            <li class="menu-option text">Categories</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+
+      <section class="top">
+
+        <article class="intro">
+          <img src="" alt="" class="intro-img">
+
+          <h1 class="intro-title">The Bright Future of Web 3.0?</h1>
+
+          <div class="intro-info">
+            <p class="intro-text text">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
+
+            <button class="intro-btn">READ MORE</button>
+          </div>
+        </article>
+
+        <article class="news">
+          <h2 class="news-title">New</h2>
+          
+          <div class="news-new">
+            <h3 class="news-headline">Hydrogen VS Electric Cars</h3>
+            <p class="news-text text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+
+          <div class="news-new">
+            <h3 class="news-headline">The Downsides of AI Artistry</h3>
+            <p class="news-text text">What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+
+          <div class="news-new">
+            <h3 class="news-headline">Is VC Funding Drying Up?</h3>
+            <p class="news-text text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </article>
+      </section>
+
+      <section class="ranking">
+        <article class="ranking-element">
+          <img src="" alt="" class="ranking-img">
+          <h2 class="ranking-number">01</h2>
+          <h3 class="ranking-title">Reviving Retro PCs</h3>
+          <p class="ranking-text text">What happens when old PCs are given modern upgrades?</p>
+        </article>
+
+        <article class="ranking-element">
+          <img src="" alt="" class="ranking-img">
+          <h2 class="ranking-number">02</h2>
+          <h3 class="ranking-title">Top 10 Laptops of 2022</h3>
+          <p class="ranking-text text">Our best picks for various needs and budgets.</p>
+        </article>
+
+        <article class="ranking-element">
+          <img src="" alt="" class="ranking-img">
+          <h2 class="ranking-number">03</h2>
+          <h3 class="ranking-title">The Growth of Gaming</h3>
+          <p class="ranking-text text">How the pandemic has sparked fresh opportunities.</p>
+        </article>
+      </section>
+    </main>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
