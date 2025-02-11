@@ -1,1 +1,95 @@
+@use '../mixins/responsive.scss' as *;
 
+.main {
+    padding: 16px 16px 80px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    @include responsive(desktop) {
+        flex-direction: row;
+    }
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}
+
+.news {
+    background-color: var(--black);
+    padding: 24px 20px;
+    margin-bottom: 64px;
+
+    &__title {
+        margin-top: 0;
+    }
+
+    &__new {
+        padding-bottom: 29px;
+        border-bottom: 1px solid var(--grey);
+        margin-bottom: 30px;
+
+        &--last {
+            border: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    &__headline {
+        margin: 0;
+    }
+
+    &__text {
+        margin-bottom: 0;
+    }
+}
+
+.ranking {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    &__element {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+
+    &__img {
+        height: 130px;
+    }
+
+    &__number {
+        color: var(--red);
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 9px;
+    }
+
+    &__text {
+        margin: 0;
+    }
+}
