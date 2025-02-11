@@ -1,7 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  background-color: var(--white);
+  background-color: red;
   font-family: "Inter", serif;
-}
+}/*# sourceMappingURL=body.css.map */
