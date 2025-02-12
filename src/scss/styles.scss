@@ -1,5 +1,7 @@
 @use 'base/normalize.scss';
 @use 'base/initial-reset.scss';
+@use 'mixins/responsive.scss';
+@use 'mixins/hover.scss';
 @use 'config/variables.scss';
 @use 'blocks/body.scss';
 @use 'blocks/titles.scss';
@@ -7,3 +9,4 @@
 @use 'blocks/header.scss';
 @use 'blocks/main.scss';
 @use 'blocks/button.scss';
+

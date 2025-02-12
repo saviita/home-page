@@ -1,3 +1,5 @@
+@use '../mixins/hover.scss' as *;
+
 .intro__btn {
     background-color: var(--red);
     color: var(--black);
@@ -7,4 +9,9 @@
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 4.375px;
+
+    @include hover {
+        background-color: var(--black);
+    color: var(--white);
+    }
 }

@@ -1,11 +1,35 @@
+@use '../mixins/responsive.scss' as *;
+
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 28px 16px;
+
+    @include responsive (laptop) {
+        padding: 89px 80px 55px;
+    }
+
+    @include responsive (desktop) {
+        padding: 55px 165px 55px;
+    }
 }
 
-.menu__nav {
-    display: none;
+.menu {
+    &__nav {
+        display: none;
+    
+        @include responsive (laptop) {
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+    }
+
+    &__icon {
+        @include responsive (laptop) {
+            display: none;
+        }
+    }
 }
