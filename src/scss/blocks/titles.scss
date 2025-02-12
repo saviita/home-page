@@ -2,47 +2,47 @@
 @use '../mixins/hover.scss' as *;
 
 .intro__title {
-font-size: 40px;
-font-weight: 800;
-line-height: 40px;
-color: var(--black);
-margin: 0;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 40px;
+	color: var(--black);
+	margin: 0;
 
-@include responsive (laptop) {
-    font-size: 56px;
-    line-height: 56px;
-}
+	@include responsive(laptop) {
+		font-size: 56px;
+		line-height: 56px;
+	}
 }
 
 .news__title {
-    color: var(--orange);
-font-size: 32px;
-font-weight: 700;
+	color: var(--orange);
+	font-size: 32px;
+	font-weight: 700;
 
-@include responsive (laptop) {
-    font-size: 40px;
-    line-height: 40px;
-}
+	@include responsive(laptop) {
+		font-size: 40px;
+		line-height: 40px;
+	}
 }
 
 .news__headline {
-    color: var(--white);
-font-size: 20px;
-font-weight: 800;
-line-height: 24px;
+	color: var(--white);
+	font-size: 20px;
+	font-weight: 800;
+	line-height: 24px;
 
-@include hover {
-    color: var(--orange);
-}
+	@include hover {
+		color: var(--orange);
+	}
 }
 
 .ranking__title {
-    color: var(--black);
-font-size: 18px;
-font-weight: 800;
-line-height: 24px;
+	color: var(--black);
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 24px;
 
-@include hover {
-    color: var(--red);
-}
+	@include hover {
+		color: var(--red);
+	}
 }
